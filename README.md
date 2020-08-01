@@ -9,7 +9,7 @@ This was a challenging assignment for me and I ran into several "brick walls" in
 
 ![Landing Page of Website](/assets/img/responsive-portfolio.png)
 
-[Code Refactor Website](https://vivid-green.github.io/responsive-portfolio/)
+[Zachary Creek Portfolio Website](https://vivid-green.github.io/responsive-portfolio/)
 
 ### Credits
 
