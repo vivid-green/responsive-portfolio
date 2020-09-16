@@ -1,9 +1,8 @@
 body {
-    background-color: white;
     font-family: 'Libre Baskerville', serif;
 }
 
-.scottland {
+.scotland {
     height: 700px;
     width: 100%;
     object-fit: cover;
@@ -30,6 +29,7 @@ body {
 
   .dog {
       margin-bottom: 100px;
+      background-color: #E9ECEF;
   }
 
   footer .social-media img {
@@ -44,8 +44,34 @@ body {
 
   .portfolio {
       width: 100%;
-      padding: 10px;
+      padding: 20px;
   }
   .port-container {
       margin-bottom: 50px;
+  }
+
+  .portfolioBox {
+      size: 350px;
+  }
+
+  .portfolioImg {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; 
+  }
+
+  .uk-card {
+      background-color: #E9ECEF;
+      font-size: large;
+  }
+
+  .uk-button {
+      background-color: #343A40;
+      color: white;
+      font-size: large;
+  }
+
+  .uk-button:hover {
+      background-color: rgb(64, 105, 105);
+      color: white;
   }

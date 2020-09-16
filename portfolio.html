@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
 </head>
 
-<body>
+<body class="portfolioPage">
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="./index.html">Zachary Creek</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -35,37 +36,59 @@
     </nav>
     <main>
         <section>
-            <div class="container p-4 port-container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <h1>Portfolio</h1>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding-small" uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="./assets/img/quote-quiz.png" alt="" uk-cover>
+                    <canvas width="600" height="600"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body uk-text-center">
+                        <h3 class="uk-card-title">Quotes Quiz</h3>
+                        <p class="uk-text-center">I learned a lot from this project. One of the main takeaways is dynamically creating html elements and event listeners and appending to the DOM. Placement of functions was crucial in obtaining the end result; specifically clearing intervals and resetting DOM elements. I would really like to revisit this project in the near future to refactor and condense lines of code. I'd like to practice jQuery and this project would be the perfect opportunity to do that. I spent a lot more time than I had anticipated to achieve a functioning site. Traversing the DOM object was tedious in the beginning but I developed somewhat of a flow towards the end of development.</p>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://vivid-green.github.io/quote-quiz/quotes-quiz">Website</a>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="#">Github Repository</a>
                     </div>
                 </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="portfolio" src="https://via.placeholder.com/350"
-                            alt="Image showing placeholder 350 x 350">
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                    <img src="./assets/img/forecast.png" alt="" uk-cover>
+                    <canvas width="600" height="600"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Weather Dashboard</h3>
+                        <p>This was a great learning experience and the perfect opportunity to experiment with various different coding concepts. I built the styling using uikit framework. I also created an object with methods to help dynamically create html elements to append to the DOM using jquery. I used Open Weather API to populate the current weather and forecasting data. jQuery was used to make the API calls. Although uikit is a great framework and has excellent documentation, it was a challenge working with nested HTML elements and jQuery to dynamically manipulate the DOM; however, it was extremely rewarding once I got it working!</p>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://vivid-green.github.io/weather-dashboard/">Website</a>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="#">Github Repository</a>
                     </div>
-                    <div class="col-md-6">
-                        <img class="portfolio" src="https://via.placeholder.com/350"
-                            alt="Image showing placeholder 350 x 350">
+                </div>
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding-small" uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="./assets/img/jedi-university.png" alt="" uk-cover>
+                    <canvas width="600" height="600"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Jedi University</h3>
+                        <p>This was my first group project and collaborative effort to bring forth this Jedi University. The idea is to satisfy your inner Star Wars nerd with some stats on Planets, People, Ships, Species and Films. A learning experience this was, to work as a team from conception, to divvying out tasks, resolving merge conflicts, approving pull requests and presenting our finished product to 50+ people. Github was one of the most challenging pieces of the project as we had to learn all the various commands from creating branches, to pushing and pulling. We used jQuery for our API calls to the Star Wars API (SWAPI) and GIPHY to bring you all the Star Wars content. We also used jQuery for DOM manipulation. We dipped into using uikit for mobile first design and the overall look and feel of the website. </p>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://vivid-green.github.io/jedi-university/">Website</a>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="#">Github Repository</a>
                     </div>
-                    <div class="col-md-6">
-                        <img class="portfolio" src="https://via.placeholder.com/350"
-                            alt="Image showing placeholder 350 x 350">
-                    </div>
-                    <div class="col-md-6">
-                        <img class="portfolio" src="https://via.placeholder.com/350"
-                            alt="Image showing placeholder 350 x 350">
-                    </div>
-                    <div class="col-md-6">
-                        <img class="portfolio" src="https://via.placeholder.com/350"
-                            alt="Image showing placeholder 350 x 350">
-                    </div>
-                    <div class="col-md-6">
-                        <img class="portfolio" src="https://via.placeholder.com/350"
-                            alt="Image showing placeholder 350 x 350">
+                </div>
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                    <img src="./assets/img/workday-scheduler.png" alt="" uk-cover>
+                    <canvas width="600" height="600"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Work Day Scheduler</h3>
+                        <p>During this project I used jQuery to manipulate the DOM. jQuery helped to condense lines of code for easier readability. Using moment.js for working with time in relation to the user and dynamically created HTML elements was a very informative experience. Especially navigating the documentation and applying the syntax and logic to this application.</p>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://vivid-green.github.io/work-day-scheduler/Develop/">Website</a>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="#">Github Repository</a>
                     </div>
                 </div>
             </div>
@@ -94,6 +117,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
 </body>
 
 </html>
