@@ -75,3 +75,8 @@ body {
       background-color: rgb(64, 105, 105);
       color: white;
   }
+
+  .email{
+    padding: 20px;  
+    font-size: 1.5rem;
+  }
