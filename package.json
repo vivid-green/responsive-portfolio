@@ -1,0 +1,24 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "Create a responsive portfolio website to showcase projects. Bootstrap components and grid system layout should be utilized in the build.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivid-green/responsive-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivid-green/responsive-portfolio/issues"
+  },
+  "homepage": "https://github.com/vivid-green/responsive-portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}

@@ -8,13 +8,13 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Portfolio</title>
 </head>
 
 <body class="portfolioPage">
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">Zachary Creek</a>
+        <a class="navbar-brand" href="/">Zachary Creek</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,16 +23,16 @@
             <div class="mr-auto"></div>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="/contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="/portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html">About</a>
+                    <a class="nav-link" href="/">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./assets/resume.pdf">Resume</a>
+                    <a class="nav-link" href="/resume">Resume</a>
                 </li>
             </ul>
         </div>
@@ -42,7 +42,7 @@
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin uk-padding-small" uk-grid>
                 <div></div>
                 <div class="uk-card-media-left uk-cover-container">
-                    <img src="./assets/img/quote-quiz.png" alt="" uk-cover>
+                    <img src="/assets/img/quote-quiz.png" alt="" uk-cover>
                     <canvas width="600" height="600"></canvas>
                 </div>
                 <div>
@@ -57,7 +57,7 @@
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                 <div></div>
                 <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                    <img src="./assets/img/forecast.png" alt="" uk-cover>
+                    <img src="/assets/img/forecast.png" alt="" uk-cover>
                     <canvas width="600" height="600"></canvas>
                 </div>
                 <div>
@@ -72,44 +72,45 @@
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin uk-padding-small" uk-grid>
                 <div></div>
                 <div class="uk-card-media-left uk-cover-container">
-                    <img src="./assets/img/jedi-university.png" alt="" uk-cover>
+                    <img src="/assets/img/note-taker.png" alt="" uk-cover>
                     <canvas width="600" height="600"></canvas>
                 </div>
                 <div>
                     <div class="uk-card-body">
-                        <h3 class="uk-card-title">Jedi University</h3>
-                        <p>This was my first group project and collaborative effort to bring forth this Jedi University. The idea is to satisfy your inner Star Wars nerd with some stats on Planets, People, Ships, Species and Films. A learning experience this was, to work as a team from conception, to divvying out tasks, resolving merge conflicts, approving pull requests and presenting our finished product to 50+ people. Github was one of the most challenging pieces of the project as we had to learn all the various commands from creating branches, to pushing and pulling. We used jQuery for our API calls to the Star Wars API (SWAPI) and GIPHY to bring you all the Star Wars content. We also used jQuery for DOM manipulation. We dipped into using uikit for mobile first design and the overall look and feel of the website. </p>
-                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://vivid-green.github.io/jedi-university/">Website</a>
-                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://github.com/vivid-green/jedi-university">Github Repository</a>
+                        <h3 class="uk-card-title">Note Taker</h3>
+                        <p>This app uses express to serve up html and handle routes for CRUD operations. jQuery is used to dynamically create and append to the DOM. Bootstrap, Font-Awesome and Paper CSS were used to compose the styling.</p>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://hidden-wildwood-41050.herokuapp.com/">Website</a>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://github.com/vivid-green/note-taker/">Github Repository</a>
                     </div>
                 </div>
             </div>
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                 <div></div>
                 <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                    <img src="./assets/img/workday-scheduler.png" alt="" uk-cover>
+                    <img src="/assets/img/furlodge.png" alt="" uk-cover>
                     <canvas width="600" height="600"></canvas>
                 </div>
                 <div>
                     <div class="uk-card-body">
-                        <h3 class="uk-card-title">Work Day Scheduler</h3>
-                        <p>During this project I used jQuery to manipulate the DOM. jQuery helped to condense lines of code for easier readability. Using moment.js for working with time in relation to the user and dynamically created HTML elements was a very informative experience. Especially navigating the documentation and applying the syntax and logic to this application.</p>
-                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://vivid-green.github.io/work-day-scheduler/Develop/">Website</a>
-                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://github.com/vivid-green/work-day-scheduler">Github Repository</a>
+                        <h3 class="uk-card-title">Fur Lodge</h3>
+                        <p>Fur Lodge was my second collaborative project with 3 others to create a pet boarding application. It was extremely fun working in a group to create a fullstack application. We used Foundation CSS framework, express-handlebars, express, jQuery, MySql, Sequelize, MySql2 and handlebars.</p>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://glacial-gorge-49813.herokuapp.com/">Website</a>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://github.com/imbingz/fur-lodge/">Github Repository</a>
                     </div>
                 </div>
             </div>
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin uk-padding-small" uk-grid>
                 <div></div>
                 <div class="uk-card-media-left uk-cover-container">
-                    <img src="./assets/img/team-template.png" alt="" uk-cover>
+                    <img src="/assets/img/secret-formula.png" alt="" uk-cover>
                     <canvas width="600" height="600"></canvas>
                 </div>
                 <div>
                     <div class="uk-card-body">
-                        <h3 class="uk-card-title">Team Template Engine</h3>
-                        <p>This was my first dip into exporting modules and creating classes to utilize throughout the app. I really tried to condense and simplify my code as best as I could while writing to utilize classes and class methods as much as possible.</p>
-                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://github.com/vivid-green/team-template-engine">Github Repository</a>
+                        <h3 class="uk-card-title">Secret Formula</h3>
+                        <p>Secret Formula is my first fullstack application using handlebars, express-handlebars, MySql, MySql2, express and node. It was challenging working with handlebars js to begin with; however, towards the end of the project I started getting a feel for it. I had fun designing a Sponge Bob theme and playing around with modals.</p>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://polar-brushlands-85699.herokuapp.com/">Website</a>
+                        <a class="uk-button uk-button-default uk-align-center uk-border-pill" href="https://github.com/vivid-green/secret-formula/">Github Repository</a>
                     </div>
                 </div>
             </div>
